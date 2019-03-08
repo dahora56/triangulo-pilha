@@ -1,6 +1,6 @@
 /*
-João Victor Oliveira da Hora
-ADS Manhã - 3º Ciclo
+JoÃ£o Victor Oliveira da Hora
+ADS ManhÃ£ - 3Âº Ciclo
 FATEC Rubens Lara
 08/03/2019
 */
@@ -26,7 +26,7 @@ int main()
         cout<<"2 - Desempilha"<<endl;
         cout<<"3 - Elemento do Topo"<<endl;
         cout<<"4 - Exibe a Pilha"<<endl;
-        cout<<"Escolha: ";
+        cout<<"\nEscolha: ";
         cin>>opc;
 
         switch(opc)
@@ -36,7 +36,7 @@ int main()
                 cout<<"\nPilha cheia..."<<endl;
             else
             {
-                cout<<"Digite o valor de A: ";
+                cout<<"\nDigite o valor de A: ";
                 cin>>valor.a;
                 cout<<"Digite o valor de B: ";
                 cin>>valor.b;
@@ -46,10 +46,10 @@ int main()
                 if(valor.isTriangulo())
                 {
                     p.empilha(valor);
-                    cout<<"Empilhado com sucesso!"<<endl;
+                    cout<<"\nEmpilhado com sucesso!"<<endl;
                 }
                 else
-                    cout<<"Não é um triângulo. Tente novamente!"<<endl;
+                    cout<<"\nNÃ£o Ã© um triÃ¢ngulo. Tente novamente!"<<endl;
             }
             break;
         case 2:
@@ -73,8 +73,8 @@ int main()
                 cout<<endl;
                 for(int i = 0; i <= p.topo; i++)
                 {
-                    //cout<<i + 1<<": "<<p.v[i]<<endl;
-                    cout<<"Area: "<<valor.area()<<endl;
+                    valor = p.v[i];
+                    cout<<"\nArea: "<<valor.area()<<endl;
                     cout<<"Perimetro: "<<valor.perimetro()<<endl;
                     cout<<"Classificacao: "<<valor.classificacao()<<endl;
                 }
