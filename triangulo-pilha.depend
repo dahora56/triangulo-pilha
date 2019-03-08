@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1552052879 source:c:\users\lab6\desktop\tp02-triangulo\triangulo-pilha\main.cpp
+	<iostream>
+	"trianguloHeader.h"
+	"pilhaHeader.h"
+	<stack>
+
+1552052719 c:\users\lab6\desktop\tp02-triangulo\triangulo-pilha\trianguloheader.h
+	<math.h>
+	<string>
+
+1552051325 c:\users\lab6\desktop\tp02-triangulo\triangulo-pilha\pilhaheader.h
+	"trianguloHeader.h"
+
